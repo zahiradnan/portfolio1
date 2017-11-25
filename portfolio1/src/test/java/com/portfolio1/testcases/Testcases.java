@@ -60,7 +60,7 @@ public void secondtest() {
 Webpages fb = new Webpages(driver);	
  fb.clickfb().click();
  
-Assert.assertEquals("Adnan's Photography Portfolio - Home | Facebook", driver.getTitle());
+Assert.assertEquals("Adnan's Photography Portfolio - Home | FacebookFail", driver.getTitle());
  
  }
  @AfterTest
